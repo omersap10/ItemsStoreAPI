@@ -1,0 +1,39 @@
+.add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 0 8px (0, 0, 0, 0.05);
+}
+
+.add-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.add-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.add-form button {
+  padding: 0.6rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.success-msg {
+  color: green;
+  text-align: center;
+}
